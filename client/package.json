@@ -6,10 +6,10 @@
     "axios": "^0.18.0",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
-    "react-redux": "^5.0.7",
+    "react-redux": "^6.0.0",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
-    "react-scripts": "1.1.4",
+    "react-scripts": "2.1.1",
     "redux": "^4.0.0",
     "redux-thunk": "^2.2.0"
   },
@@ -19,5 +19,11 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "proxy": "http://localhost:8080/"
+  "proxy": "http://localhost:8080/",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
